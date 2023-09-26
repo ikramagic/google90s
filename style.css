@@ -1,0 +1,122 @@
+.gmail{
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px;
+        order: 4;
+}
+a:link {
+    color: grey;
+    text-decoration: none;
+  }
+a:hover {
+    text-decoration: underline;
+  }
+
+.googleimage{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    order:3;
+}
+
+.apps{
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    padding: 10px;
+    order:2;
+}
+
+.partie1{
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+.partie2{
+    display:flex;
+    justify-content: center;
+}
+.partie3 {
+    display:flex;
+    justify-content: center;
+}
+.partie4 {
+    display:flex;
+    justify-content: center;
+}
+.connexion{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    padding: 10px 20px;
+    font-weight: bold;
+    color:white;
+    order: 1;
+}
+
+  div {
+    font-family: 'Roboto'; sans-serif;
+  }
+
+.blabladroite {
+    display: flex;
+    justify-content: space-around;
+    justify-content: right;
+    align-items: right;
+    flex-wrap: nowrap;
+    height: 100px
+  }
+
+.blablagauche {
+    display: flex;
+    justify-content: space-around;
+    justify-content: left;
+    align-items: left;
+    flex-wrap: nowrap;
+    height: 100px
+    background-color: lightgrey;
+  }
+
+.propos {
+    padding: 10px;
+}
+.pub {
+    padding: 10px;
+}
+.comp {
+    padding: 10px;
+}
+.how {
+    padding: 10px;
+    text-align: center;
+}
+.country{
+    background-color: lightgrey;
+    color:gray
+}
+.bottom {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 100px;
+}
+.privacy {
+    padding: 10px;
+}
+.terms{
+    padding: 10px;
+}
+.pref{
+    padding: 10px;
+}
+.country{
+    padding: 10px;
+}
+footer {
+    background-color: lightgrey;
+    color:gray
+}
