@@ -116,7 +116,12 @@ a:hover {
 .country{
     padding: 10px;
 }
+
 footer {
+    position: fixed; 
+    bottom: 0;
+    width: 100%; 
     background-color: lightgrey;
-    color:gray
+    color: gray;
+    text-align: center;
 }
